@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #272a2c;
+    margin: 0;
+    padding: 50px;
+}
+
+
+h2 {
+    text-align: center;
+    color: #d1d8e0;
+    margin-bottom: 30px;
+}
+
+
+form {
+    background-color: #121212;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(255, 252, 252, 0.1);
+    max-width: 400px;
+    margin: 0 auto; 
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #b6bec1;
+}
+
+
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+    width: calc(100% - 24px); 
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #2f3032;
+    border-radius: 5px;
+    background-color: #121212;
+    color: #d1d8e0;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    border-color: #2f3032;
+    outline: none;
+}
+
+
+input[type="radio"] {
+    margin-right: 5px;
+    color: #d1d8e0;
+}
+
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: transform 0.2s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); 
+}
+
+
